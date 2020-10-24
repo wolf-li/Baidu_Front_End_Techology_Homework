@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>resume</title>
+    <style>
+        body{background-color: cornflowerblue;}
+        h1{margin-top: 0;}
+        ul{list-style: none;
+            margin: 0;
+            padding: 0;}
+        .wrapper{
+            width: 70%;
+            margin: auto;
+            background-color:white;
+            padding: 2em;
+            box-shadow: 5px 5px 5px black;
+        }
+        .basic ul, .contact ul{
+            display: flex;
+        }
+        .basic ul li, .contact ul li{
+            padding-right: 2em;
+        }
+        .ability ul li:nth-child(2n+1),.education ul li:nth-child(2n+1), .project ul li:nth-child(2n+1){
+            font-size: 1em;
+            font-weight: bold;
+        }
+        .ability ul li:nth-child(2n),.education ul li:nth-child(2n), .project ul li:nth-child(2n){
+            padding-bottom: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+    <header class="title">
+        <h1>简历</h1>
+    </header>
+    <article class="basic">
+        <header class="basic title">
+        <h3>基本信息</h3>
+        </header>
+        <ul>
+            <li>姓名 张三</li>
+            <li>性别 男</li>
+            <li>应聘职位 Web前端工程师</li>
+        </ul>
+    </article>
+    <article class="contact">
+        <header class="contact title">
+            <h3>联系方式</h3>
+        </header>
+        <ul>
+            <li>手机 12312341234</li>
+            <li>Email <a href="mailto:joinefe@baidu.com">joinefe@baidu.com</a></li>
+            <li>个人主页 <a href="github.com">Github</a></li>
+        </ul>
+    </article>
+    <article class="ability">
+        <header class="ability title">
+            <h3>能力描述</h3>
+        </header>
+        <ul>
+            <li>技术能力</li>
+            <li>熟练掌握 HTML、CSS、JavaScript</li>
+            <li>综合能力</li>
+            <li>良好的沟通、主动积极、努力勤奋</li>
+        </ul>
+    </article>
+    <article class="education">
+        <header class="education title">
+            <h3>教育经历</h3>
+        </header>
+        <ul>
+            <li>本科</li>
+            <li>百度前端技术学院小薇学院</li>
+            <li>研究生</li>
+            <li>百度前端技术学院大斌学院</li>
+        </ul>
+    </article>
+    <article class="project">
+        <header class="project title">
+            <h3>项目经历</h3>
+        </header>
+        <ul>
+            <li>小度小度</li>
+            <li>作为前端工程师角色参与了ABC组件的开发</li>
+            <li>SAN Doc</li>
+            <li>作为文档工程师参与了SAN Doc编写</li>
+        </ul>
+    </article>
+    </div>
+</body>
+</html>
