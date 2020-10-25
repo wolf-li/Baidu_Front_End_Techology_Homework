@@ -3,47 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>resume</title>
-    <style>
-        body{background-color: cornflowerblue;}
-        h1{margin-top: 0;}
-        ul{list-style: none;
-            margin: 0;
-            padding: 0;}
-        .wrapper{
-            width: 70%;
-            margin: auto;
-            background-color:white;
-            padding: 2em;
-            box-shadow: 5px 5px 5px black;
-        }
-        .basic ul, .contact ul{
-            display: flex;
-        }
-        .basic ul li, .contact ul li{
-            padding-right: 2em;
-        }
-        .ability ul li:nth-child(2n+1),.education ul li:nth-child(2n+1), .project ul li:nth-child(2n+1){
-            font-size: 1em;
-            font-weight: bold;
-        }
-        .ability ul li:nth-child(2n),.education ul li:nth-child(2n), .project ul li:nth-child(2n){
-            padding-bottom: 0.5em;
-        }
-    </style>
+    <!--通过引用 day6文件中的三个 css 文件达到不同的样式效果-->
+    <link rel="stylesheet" href="day6/style_3.css">
 </head>
 <body>
     <div class="wrapper">
-    <header class="title">
+    <div class="wrapper-left">
+    <header class="resume-title">
         <h1>简历</h1>
     </header>
+    </div>
+    <div class="wrapper-right">
     <article class="basic">
         <header class="basic title">
         <h3>基本信息</h3>
         </header>
         <ul>
-            <li>姓名 张三</li>
-            <li>性别 男</li>
-            <li>应聘职位 Web前端工程师</li>
+            <li><strong>姓名</strong> 张三</li>
+            <li><strong>性别</strong> 男</li>
+            <li><strong>应聘职位</strong> Web前端工程师</li>
         </ul>
     </article>
     <article class="contact">
@@ -51,9 +29,9 @@
             <h3>联系方式</h3>
         </header>
         <ul>
-            <li>手机 12312341234</li>
-            <li>Email <a href="mailto:joinefe@baidu.com">joinefe@baidu.com</a></li>
-            <li>个人主页 <a href="github.com">Github</a></li>
+            <li><strong>手机</strong> 12312341234</li>
+            <li><strong>Email</strong> <a href="mailto:joinefe@baidu.com">joinefe@baidu.com</a></li>
+            <li><strong>个人主页</strong> <a href="github.com">Github</a></li>
         </ul>
     </article>
     <article class="ability">
@@ -89,6 +67,7 @@
             <li>作为文档工程师参与了SAN Doc编写</li>
         </ul>
     </article>
+    </div>
     </div>
 </body>
 </html>

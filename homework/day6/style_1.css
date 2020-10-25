@@ -1,0 +1,25 @@
+body{background-color: cornflowerblue;}
+h1{margin-top: 0;}
+ul{list-style: none;
+    margin: 0;
+    padding: 0;}
+.wrapper{
+    width: 70%;
+    margin: auto;
+    background-color:white;
+    padding: 2em;
+    box-shadow: 5px 5px 5px black;
+}
+.basic ul, .contact ul{
+    display: flex;
+}
+.basic ul li, .contact ul li{
+    padding-right: 2em;
+}
+.ability ul li:nth-child(2n+1),.education ul li:nth-child(2n+1), .project ul li:nth-child(2n+1){
+    font-size: 1em;
+    font-weight: bold;
+}
+.ability ul li:nth-child(2n),.education ul li:nth-child(2n), .project ul li:nth-child(2n){
+    padding-bottom: 0.5em;
+}

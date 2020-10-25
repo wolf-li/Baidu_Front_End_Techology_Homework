@@ -1,0 +1,59 @@
+*{margin: 0;
+padding: 0;}
+body{background-color: cornflowerblue;}
+ul{list-style: none;}
+.wrapper{
+    width: 70%;
+    margin: auto;
+    background-color:white;
+    box-shadow: 5px 5px 5px black;
+}
+.resume-title{
+    width: 100%;
+    margin-top: 1em;
+}
+.resume-title  h1{
+    padding: 0.5em;
+    color: white;
+    background-color: gray;
+}
+.wrapper-right{
+    display: flex;
+    flex-direction: column;
+}
+article header{
+    float: left;
+    width: 20%;
+    height: 9em;
+    background-color: lightgray;
+    border-bottom: 0.1em solid white;
+}
+article ul{
+    width: 80%;
+    height: 9em;
+    float: left;
+    border-bottom: 0.1em solid lightgray;
+}
+article header h3{
+    text-align: center;
+    transform: translateY(200%);
+}
+article ul li{
+    padding: 0.5em 0 0 0.5em;
+}
+.basic ul, .contact ul{
+    display: flex;
+}
+.basic ul li, .contact ul li{
+    padding-right: 2em;
+}
+.ability ul li:nth-child(2n+1),.education ul li:nth-child(2n+1), .project ul li:nth-child(2n+1){
+    font-size: 1em;
+    font-weight: bold;
+}
+.ability ul li:nth-child(2n),.education ul li:nth-child(2n), .project ul li:nth-child(2n){
+    padding-bottom: 0.5em;
+}
+.education ul li:nth-child(2n+1),.ability ul li:nth-child(2n+1), .project ul li:nth-child(2n+1){
+    float: left;
+}

@@ -1,0 +1,35 @@
+ul{list-style: none;
+    margin: 0;
+    padding: 0;}
+.wrapper{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    background-color: cornflowerblue;
+    box-shadow: 5px 5px 5px black;
+}
+.wrapper-left{
+    float: left;
+    width: 25%;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+.wrapper-right{
+    width: 75%;
+    background-color: white;
+    padding-left: 2em;
+}
+.basic ul, .contact ul{
+    display: flex;
+}
+.basic ul li, .contact ul li{
+    padding-right: 2em;
+}
+.ability ul li:nth-child(2n+1),.education ul li:nth-child(2n+1), .project ul li:nth-child(2n+1){
+    font-size: 1em;
+    font-weight: bold;
+}
+.ability ul li:nth-child(2n),.education ul li:nth-child(2n), .project ul li:nth-child(2n){
+    padding-bottom: 0.5em;
+}
