@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /*解决思路 通过设置左侧div 的大小，让右边 div 自适应
+        当 div 中没有内容时或不设置 height时，不使用 border画出边线，只用 background-color
+        看不到 div 自适应的效果
+        */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .content{
+            
+        }
+        .content-left{
+            width: 40rem;
+            float: left;
+            background-color: chocolate;
+        }
+        .content-right{
+            margin-left: 2rem;
+            background-color: darkgoldenrod;
+            border: 5px solid darkblue;
+        }
+    </style>
+</head>
+<body>
+    <main class="content">
+        <div class="content-left">231223<br><br><br></div>
+        <div class="content-right">wer</div>
+    </main>
+</body>
+</html>

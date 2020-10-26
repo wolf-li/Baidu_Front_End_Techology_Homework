@@ -37,6 +37,10 @@ article ul{
 article header h3{
     text-align: center;
     transform: translateY(200%);
+    /*还可以使用 定位解决文字不居中问题
+    position: relative;
+    top: 45%;
+    */
 }
 article ul li{
     padding: 0.5em 0 0 0.5em;
