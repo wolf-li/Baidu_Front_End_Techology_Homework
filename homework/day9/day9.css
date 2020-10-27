@@ -124,11 +124,172 @@ header form button{
     background-color: white;
     color: black;
 }
-.call-to-action div{
-    margin: 102px 0;
+.call-to-action img{
+    margin: 120px 0 26px 80px;
+    padding: 25px 0 25px 40px;
     border: 1px solid lightgray;
     border-radius: 30px 0 0 30px;
+    box-sizing: border-box;
+    height: 540px;
 }
-.call-to-action img{
-    margin: 26px 0 26px 26px;
+.product{
+    width: 61%;
+    height: 582px;
+    margin:auto;
+    text-align: center;
 }
+.product header{
+    padding-top: 97px;
+}
+.product ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.product ul li{
+    width: 270px;
+    height: 225px;
+}
+.product ul li img{
+    margin-bottom: 22px;
+}
+
+.product-feature{
+    width: 61%;
+    height: 1002px;
+    margin: auto;
+}
+.product-feature ul{
+    list-style: none;
+}
+.product-feature ul li{
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.product-feature ul li:nth-child(2){
+    flex-direction: row-reverse;
+}
+.product-feature ul li article{
+    width: 30%;
+}
+.product-feature ul li article header{
+    padding: 69px 0 36px 0;
+    font-size: 19px;
+    font-weight: lighter;
+    line-height: 30px;
+}
+
+.crew{
+    width: 61%;
+    height: 1083px;
+    margin: auto;
+}
+.crew ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:  15px;
+    padding-top: 60px;
+}
+.crew header{
+    padding-top: 97px;
+    text-align: center;
+}
+.crew p{
+    padding-top: 26px;
+    box-sizing: border-box;
+    width: 80%;
+    padding-left: 15%;
+    text-align: center;
+}
+
+.contact{
+    width: 61%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contact form, .contact article{
+    margin: 71px 0;
+    width: 46%;
+}
+
+.contact form{
+    height: 558px;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    letter-spacing: 2px;
+}
+.contact form label{
+    height: 52px;
+    line-height: 65px;
+    text-transform: uppercase;
+}
+.contact form input,.contact form button{
+    width: 80%;
+    margin:auto;
+    height: 52px;
+}
+.contact form input:nth-of-type(3){
+    height: 144px;
+}
+.contact form button{
+    background-color: black;
+    color: white;
+}
+.contact article{
+    padding: 82px 0;
+}
+.contact article ul{
+    list-style: none;
+    padding-top: 30px;
+}
+.contact article ul li{
+    display: flex;
+    margin: 15px 0;
+}
+.contact article header h1{
+    font-size: 34px;
+    font-weight: lighter;
+}
+.contact article p,.contact article ul li img{
+    line-height: 30px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+footer{
+    height: 412px;
+    width: 100%;
+    margin: auto;
+    background-color: black;
+}
+footer section{
+    width: 61%;
+    padding-top: 82px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+footer section ul{
+    list-style: none;
+}
+footer section ul li{
+    padding: 13px 0;
+    opacity: 0.7;
+}
+footer section article h3{
+    padding-bottom: 13px;
+}
+footer section article:nth-child(4) ul li{
+    width: 280px;
+}
+footer section ul li img{
+    padding-right: 16px;
+}
+
