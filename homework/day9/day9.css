@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.h{
+    background-image: url(images/background_01.png);
+    width: 100%;
+    height: 990px;
+    color: white;
+}
+header article,header form{
+    width: 61.8%;
+    margin: 0 auto;
+    text-align: center;
+}
+header article{
+    position: absolute;
+    top: 200px;
+    left: 315px;
+}
+header article h5{
+    font-size: 62px;
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 77px;
+}
+header article p{
+    opacity: 0.7;
+}
+header form{
+    position: relative;
+    top: 529px;
+    border: 1px solid white;
+    padding: 48px 0;
+    text-transform: uppercase;
+}
+header form p:nth-of-type(1){
+    letter-spacing: 3px;
+}
+header form p:nth-of-type(2){
+    padding-bottom: 38px;
+    opacity: 0.7;
+}
+header form input{
+    border: 1px solid white;
+    background: transparent;  /*input 底部透明*/
+    box-sizing: border-box;
+    width: 300px;
+    height: 38px;
+    margin-right: 26px;
+    color: white;
+    padding-left: 15px;
+    opacity: 0.7;
+}
+header form button{
+    box-sizing: border-box;
+    width: 122px;
+    height: 40px;
+}
+.feature{
+    width: 66%;
+    height: 480px;
+    margin: 85px auto;
+}
+.feature header h5,.feature header h1{
+    margin-top: 40px;
+    text-align: center;
+}
+.feature header h5{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.feature header h1{
+    font-weight: lighter;
+    font-size: 30px;
+}
+.feature ul{
+    width: 100%;
+    margin-top: 66px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.feature ul li:nth-child(3),.feature ul li:nth-child(4){
+    margin-top: 60px;
+}
+.feature ul li img{
+    float: left;
+}
+.feature ul li header,.feature ul li p{
+    margin-left: 70px;
+}
+.call-to-action{
+    background-image: url(images/background_03.png);
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: flex-end;
+}
+.call-to-action article{
+    padding: 175px 200px 102px 10px;
+    color: white;
+}
+.call-to-action article header h1{
+    font-size: 34px;
+    font-weight: lighter;
+}
+.call-to-action article p{
+    padding: 42px 0;
+    line-height: 28px;
+    opacity: 0.7;
+}
+.call-to-action button{
+    box-sizing: border-box;
+    width: 240px;
+    height: 60px;
+    font-size: 15px;
+    background-color: transparent;
+    border:1px solid white;
+    color: white;
+    margin-right: 30px;
+}
+.call-to-action button:hover{
+    background-color: white;
+    color: black;
+}
+.call-to-action div{
+    margin: 102px 0;
+    border: 1px solid lightgray;
+    border-radius: 30px 0 0 30px;
+}
+.call-to-action img{
+    margin: 26px 0 26px 26px;
+}
