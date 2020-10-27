@@ -217,12 +217,12 @@ header form button{
 
 .contact form{
     height: 558px;
-    border: 1px solid lightgray;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: space-around;
     letter-spacing: 2px;
+    border: 1px solid lightgray;
 }
 .contact form label{
     height: 52px;
@@ -233,6 +233,7 @@ header form button{
     width: 80%;
     margin:auto;
     height: 52px;
+    border: 1px solid lightgray;
 }
 .contact form input:nth-of-type(3){
     height: 144px;
