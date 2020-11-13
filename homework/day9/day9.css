@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding: 0;
+    background-repeat: no-repeat;
 }
 ul{
     list-style: none;
@@ -226,14 +227,13 @@ header form button:hover{
     line-height: 65px;
     text-transform: uppercase;
 }
-.contact form input,.contact form button{
+.contact form input,.contact form button, .contact form textarea{
     width: 80%;
     margin:auto;
     height: 52px;
     border: 1px solid lightgray;
-}
-.contact form input:nth-of-type(3){
-    height: 144px;
+    padding-left: 1rem;
+    size: 2rem;
 }
 .contact form button{
     background-color: black;
@@ -257,6 +257,9 @@ header form button:hover{
     line-height: 30px;
     padding-top: 15px;
     padding-right: 15px;
+}
+textarea{
+    padding-top: 1rem;
 }
 
 footer{
